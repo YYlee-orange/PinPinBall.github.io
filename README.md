@@ -2,7 +2,13 @@
 
 经典弹球小游戏，触摸屏幕方案。横屏 Canvas 物理弹球：发射区为双圆喉口，重力水平向右；击碎带血几何砖块得分，砖块整列向左推进。
 
-## 运行
+## 在线游玩
+
+打开：<https://yylee-orange.github.io/PinPinBall.github.io/>
+
+仓库需在 **Settings → Pages** 中启用 GitHub Pages（Source 选 GitHub Actions，或 Branch `main` / root）。推送到 `main` 后会自动部署。
+
+## 本地运行
 
 需要本地静态服务（ES 模块不能直接用 `file://` 打开）。
 
@@ -33,3 +39,4 @@ Pages（若已开启）：<https://yylee-orange.github.io/PinPinBall.github.io/>
 - 血量上限 0～2 分钟从 5 线性升至 27，其后 1～27 随机
 - 爆炸橙色扩散圆环；本地最高分；暂停/分数 HUD
 - 同步至 GitHub 仓库 `YYlee-orange/PinPinBall.github.io`
+- 配置 GitHub Pages 自动部署，支持网页端直接游玩

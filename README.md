@@ -12,6 +12,9 @@ powershell -ExecutionPolicy Bypass -File .\serve.ps1
 
 浏览器访问 `http://127.0.0.1:8765/`。画布逻辑尺寸 **904×572**，窗口按比例 contain，黑边留白。
 
+GitHub 仓库：<https://github.com/YYlee-orange/PinPinBall.github.io>  
+Pages（若已开启）：<https://yylee-orange.github.io/PinPinBall.github.io/>
+
 ## 玩法摘要
 
 - 触屏/鼠标按住瞄准，松开发射；多球呈珠串同向发出
@@ -29,3 +32,4 @@ powershell -ExecutionPolicy Bypass -File .\serve.ps1
 - 砖块四种形状、随机转角、1～1.4 倍大小、多色相深浅随血量
 - 血量上限 0～2 分钟从 5 线性升至 27，其后 1～27 随机
 - 爆炸橙色扩散圆环；本地最高分；暂停/分数 HUD
+- 同步至 GitHub 仓库 `YYlee-orange/PinPinBall.github.io`
